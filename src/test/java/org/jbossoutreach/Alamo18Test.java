@@ -42,7 +42,7 @@ public class Alamo18Test {
     public void ObjectCompare(){
         Main mainObj1 = new Main();
         Main mainObj2 = new Main();
-        Assert.assertSame(mainObj1, mainObj2);
+        Assert.assertEquals(mainObj1, mainObj2);
     }
 
 }

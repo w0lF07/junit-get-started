@@ -3,16 +3,17 @@
 This repository is structured to help you getting started with unit testing and integration testing with `JUnit` `Java` and `Gradle`
 
 
-## Setting Up the Project
 
-* Set up Java 7+ on your operating system.
-* Set the environment variable `JAVA_HOME` to the root directory of your JDK installation.
+## Setting Up the Project
+*  [Download Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your OS and install.
+
+* Set the environment variable `JAVA_HOME` to root directory of JDK installation. View instructions [here](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/).
 * *Fork* and *clone* the Git repository.
 
 
 ## Running the Tests
-1. Set the present working directory in terminal to your project.
-2. Run `./gradlew test` on Linux/Unix and `gradlew test` on Windows.
+1. Set the present working directory in terminal to your project. (`cd YOUR_PROJECT_DIRECTORY`)
+2. Run `./gradlew test` on Linux/Unix or `gradlew test` on Windows.
 
 
 ###### Alternatively, if using an IDE like [Intellij IDEA](https://www.jetbrains.com/idea/),
@@ -38,3 +39,4 @@ This repository is structured to help you getting started with unit testing and 
 * There is nothing to work on in the main source (src/main/). Only test cases (src/test/) should be modified and run.
 * Do not edit ApplicationTest.java! Create a new test class instead to avoid merge conflicts.
 * Class names should always be in [PascalCase](https://en.wikipedia.org/wiki/PascalCase)
+

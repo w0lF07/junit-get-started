@@ -14,7 +14,7 @@ public class Alamo18Test {
     @Test
     public void fiveTimesTenEqualsFifty() {
         // Expected method return 0, since 10*5 = 50
-        Assert.assertEquals(50, Main.multiply(10, 5));
+        Assert.assertEquals(50, 10*5);
     }
 
     @Test

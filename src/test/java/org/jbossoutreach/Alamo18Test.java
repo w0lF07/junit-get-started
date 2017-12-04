@@ -3,7 +3,7 @@ package org.jbossoutreach;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ApplicationTest {
+public class Alamo18Test {
 
     @Test
     public void sampleTest() {
@@ -40,9 +40,9 @@ public class ApplicationTest {
 
     @Test
     public void ObjectCompare(){
-        Bubble bubbleObj = new Bubble();
-        Main mainObj = new Main();
-        Assert.assertNotSame(bubbleObj, mainObj);
+        Main mainObj1 = new Main();
+        Main mainObj2 = new Main();
+        Assert.assertSame(mainObj1, mainObj2);
     }
 
 }

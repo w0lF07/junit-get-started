@@ -38,11 +38,5 @@ public class Alamo18Test {
         Assert.assertArrayEquals(original, expected);
     }
 
-    @Test
-    public void ObjectCompare(){
-        Main mainObj1 = new Main();
-        Main mainObj2 = new Main();
-        Assert.assertEquals(mainObj1, mainObj2);
-    }
 
 }

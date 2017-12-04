@@ -15,3 +15,13 @@ This repository is structured to help you getting started with unit testing and 
 * Run `./gradlew test` on Linux/Unix and `gradlew test` on Windows.
 
 
+## TODO :
+
+* Create your personal new test class under `src/test/java/org/jbossoutreach/` eg: `GargAnujApplicationTest`
+* Always start class name with Caps
+* Do not edit ApplicationTest class.
+* Do not edit `src/main/java` for junit test making task.
+* Add 5 test cases in your test class
+* Verify that `./gradlew clean test` build successfully before submitting pull request.
+
+

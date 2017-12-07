@@ -1,6 +1,6 @@
 
 # Getting equipped with Unit Testing In Java 
-[![Build Status](https://travis-ci.org/jboss-outreach/compressor-head.svg?branch=addtravis)](https://travis-ci.org/Jboss-Outreach/compressor-head)
+[![Build Status](https://travis-ci.org/jboss-outreach/junit-get-started.svg?branch=master)](https://travis-ci.org/jboss-outreach/junit-get-started)
 
 This repository is structured to help you getting started with unit testing and integration testing with `JUnit` `Java` and `Gradle`.
 

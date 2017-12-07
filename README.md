@@ -7,16 +7,16 @@ This repository is structured to help you getting started with unit testing and 
 ## What is Unit Testing?
 
 Unit testing is a testing technique using which individual modules of the program are tested to determine if there are any issues.
-We are going to be using [JUnit](http://junit.org/junit5/), which is a unit testing framework for Java programming language.
+We are going to be using [JUnit](http://junit.org/junit5/), a unit testing framework for Java.
 
 ## Setting up the Project
 
-* Download[Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html) installed on your system.
+* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html). Make sure that it is for your Operating System!
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
-* Fork the repository by clicking on the Fork icon at the top right corner of the repository page.
-* Clone the repository on to your local machine by running the following commands on git:
-		`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
-* Refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/) if you are stuck somewhere.
+* Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
+* Clone the repository to your local machine by running the following commands on git:
+			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
+* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in the [chat](https://gitter.im/jboss-outreach/gci).
 
 ## Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
@@ -39,8 +39,7 @@ We are going to be using [JUnit](http://junit.org/junit5/), which is a unit test
 5. Write a very conscise but informative pull request message,explaining the test cases in your pull request! Remember to use your words wisely. 
 
 ## Points to keep in mind while contributing
-* 
-* There is not much content in main code (src/main/). *Add your test code to (src/test/) only. 
+* There is not much content in main code (src/main/). *Add your test code to (src/test/) only.* 
 * Do not edit ApplicationTest.java! Create a **new test class** instead to avoid merge conflicts.
 * Remember to add comments in your code so that the other person can know what the test module does.
 * Class names should always be in PascalCase.

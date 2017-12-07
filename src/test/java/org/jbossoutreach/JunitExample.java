@@ -35,7 +35,7 @@ public class JunitExample {
     @Test
     public void assert_Not_Null()
     {
-int i = 5;
+        int i = 5;
         Assert.assertNotNull(i);
     }
 }

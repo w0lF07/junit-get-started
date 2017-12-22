@@ -9,25 +9,34 @@ This repository is structured to help you getting started with unit testing and 
 Unit testing is a testing technique using which individual modules of the program are tested to determine if there are any issues.
 We are going to be using [JUnit](http://junit.org/junit5/), a unit testing framework for Java.
 
-## Setting up the Project
+## Contents
+* [Setting up the project](#set)
+* [Running the tests](#run)
+* [Contribution Guidelines](#cont)
+* [References](#ref)
 
-* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html). Make sure that it is for your Operating System!
+## <a id="set"></a>Setting up the Project
+
+* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Make sure that it is for your Operating System!
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
 			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
-* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in the [chat](https://gitter.im/jboss-outreach/gci).
+* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/).
 
-## Running the tests
+## <a id="run"></a>Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
 2. Run `./gradlew test` on Linux/Unix or `gradlew test` on Windows.
+* If the file is being denied to open, the use `chmod +x ./gradlew` (for Linux/Unix) or run `cmd as admin` (for Windows).
+
+* If the file is being denied to open, the use `chmod +x ./gradlew` (for Linux/Unix) or run `cmd as admin` (for Windows).
 
 ###### Alternatively, if you are using an IDE like [Intellij IDEA](https://www.jetbrains.com/idea/)
 1. Import the Git repository into the IDE and allow Gradle.
 2. Right-click the src/test/ directory.
 3. Click `Run 'All Tests'` or simply use the `Ctrl-Shift-F10` keyboard shortcut.
 
-## Contributing test cases
+## <a id="cont"></a>Contribution Guidelines
 1. Add a **new** test class under src/test/java for the suite of test cases to be added.
 2. Add 5 JUnit test cases in that class, one for each:
 		-assertTrue
@@ -45,7 +54,17 @@ We are going to be using [JUnit](http://junit.org/junit5/), a unit testing frame
 * Class names should always be in PascalCase.
 * This repository has Travis CI integration, verify that it builds successfully before submitting the task. 
 
-## Additional Reading
-* [Assert Documentation](http://junit.sourceforge.net/javadoc/org/junit/Assert.html)
-* [Junit Test Framework](https://www.tutorialspoint.com/junit/junit_test_framework.htm)
-* [Best Coding Practices](https://en.wikipedia.org/wiki/Best_coding_practices) 
+# <a id="ref"></a>References
+  * [How to set JAVA_HOME](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/)
+  * [Assert Documentation](http://junit.sourceforge.net/javadoc/org/junit/Assert.html)
+  * [Junit Test Framework](https://www.tutorialspoint.com/junit/junit_test_framework.htm)
+  * [Best Coding Practices](https://en.wikipedia.org/wiki/Best_coding_practices) 
+  * [How to use GitHub](https://guides.github.com/activities/hello-world/)
+  * [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+  * [Git commands handbook](https://git-scm.com/docs)
+  * [Command Prompt handbook](http://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+  * [Linux Terminal handbook](http://linuxcommand.org/)
+  * [MacOS Terminal handbook](https://developer.apple.com/library/content/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html)
+  * [Heroku Handbook](https://devcenter.heroku.com/)
+  * [Maven Handbook](http://www.jcabi.com/jcabi-heroku-maven-plugin/example-start.html)
+  * [Chat with us !](https://gitter.im/jboss-outreach)

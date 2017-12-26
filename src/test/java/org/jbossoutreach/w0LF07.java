@@ -33,8 +33,8 @@ public class w0LF07
     {
         int prod = a * b;
         Assert.assertFalse(prod == 0);
-        Assert.assertFalse(prod == val1);
-        Assert.assertFalse(prod == val2);
+        Assert.assertFalse(prod == a);
+        Assert.assertFalse(prod == b);
     }
 
     @Test

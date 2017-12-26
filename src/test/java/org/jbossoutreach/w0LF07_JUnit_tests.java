@@ -1,4 +1,4 @@
-package org.java;
+package org.jbossoutreach;
 import org.junit.Assert;
 import org.junit.Test;
 

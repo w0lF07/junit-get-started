@@ -2,7 +2,7 @@ package org.jbossoutreach;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class JUnit_tests
+public class w0LF07.java
 {
 
     int a = 10;

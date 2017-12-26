@@ -2,14 +2,14 @@ package org.jbossoutreach;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class w0LF07.java
+public class w0LF07
 {
 
-    int a = 10;
-    int b = 7;
-    String s1 = "SWASTIK";
-    String s2 = "DAS";
-    String Null1 = null;
+    private int a = 10;
+    private int b = 7;
+    private String s1 = "SWASTIK";
+    private String s2 = "DAS";
+    private String Null1 = null;
 
     @Test
     public void testEquals()

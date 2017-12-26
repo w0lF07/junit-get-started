@@ -2,14 +2,14 @@ package org.jbossoutreach;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class w0LF07
+public class W0LF07_JUnit_Tests
 {
 
     private int a = 10;
     private int b = 7;
     private String s1 = "SWASTIK";
     private String s2 = "DAS";
-    private String Null1 = null;
+    private String null1 = null;
 
     @Test
     public void testEquals()
@@ -40,7 +40,7 @@ public class w0LF07
     @Test
     public void testNull()
     {
-        Assert.assertNull(Null1);
+        Assert.assertNull(null1);
     }
 
     @Test
